@@ -1,0 +1,6 @@
+#box{
+    width: 900px;
+    min-height: 500px;
+    border: solid 2px black;
+    margin: auto;
+}
