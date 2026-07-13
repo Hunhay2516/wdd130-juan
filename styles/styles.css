@@ -1,6 +1,27 @@
-#box{
+#box1{
     width: 900px;
     min-height: 500px;
+    border: solid 2px black;
+    margin: auto;
+}
+
+#box2{
+    width: 900px;
+    min-height: 250px;
+    border: solid 2px black;
+    margin: auto;
+}
+
+#box3{
+    width: 900px;
+    min-height: 250px;
+    border: solid 2px black;
+    margin: auto;
+}
+
+#box4{
+    width: 900px;
+    min-height: 250px;
     border: solid 2px black;
     margin: auto;
 }
