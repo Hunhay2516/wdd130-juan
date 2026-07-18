@@ -26,7 +26,7 @@ h1 {
 
 
 .logo-img {
-    width: 25%;
+    width: 15%;
     height: auto;
     display: block;
     margin: 15px auto;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .hero-img {
-    width: 95%;
+    width: 75%;
     height: auto;
     display: block;
     margin: 30px auto;
@@ -42,7 +42,7 @@ h1 {
 }
 
 #box1{
-    width: 900px;
+    width: 80%;
     min-height: 500px;
     border: solid 2px black;
     border-bottom: none;
@@ -55,8 +55,7 @@ h1 {
 #box1 h1 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    /* font-size: 40px;
-    margin-top: 20px; */
+    font-size: 40px;
 }
 
 a {
@@ -73,6 +72,10 @@ nav {
     border-bottom: solid 2px gold;
 }
 
+nav a {
+    padding: 20px 20px
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -82,7 +85,6 @@ nav ul {
 nav ul li a {
     display: flex;
     text-align: center;
-    padding: 20px 20px;
     text-decoration: none;
 }
 
@@ -94,8 +96,8 @@ nav ul li a:hover {
 /* ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
 
 #box2{
+    width: 80%;
     padding-top: 1px;
-    width: 900px;
     min-height: 250px;
     border: solid 2px black;
     margin: auto;
@@ -105,20 +107,20 @@ nav ul li a:hover {
 }
 
 #box2 p {
-    padding: 0px 60px 20px;
-    font-size: 30px;
+    padding: 0px 260px 20px;
+    font-size: 40px;
     color: white;
 }
 
 #box3{
-    width: 900px;
+    width: 80%;
     min-height: 250px;
     border: solid 2px black;
     margin: auto;
 }
 
 #box4{
-    width: 900px;
+    width: 80%;
     min-height: 250px;
     border: solid 2px black;
     margin: auto;
