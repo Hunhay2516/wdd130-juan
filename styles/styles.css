@@ -14,18 +14,100 @@
     font-display: swap;
 }
 
+/* ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+body {
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-family: 'Oswald';
+}
+
+
+.logo-img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border: solid 2px black;
+}
+
+.hero-img {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border: solid 2px black;
+}
+
 #box1{
     width: 900px;
     min-height: 500px;
     border: solid 2px black;
+    border-bottom: none;
     margin: auto;
+    background-color: #00A651;
+    text-align: center;
+    padding-bottom: 1px;
 }
 
+#box1 h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    /* font-size: 40px;
+    margin-top: 20px; */
+}
+
+a {
+    color: gold;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-top: solid 2px gold;
+    border-bottom: solid 2px gold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li a {
+    display: flex;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: gold;
+    color: blue;
+}
+
+/* ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
 #box2{
+    padding-top: 1px;
     width: 900px;
     min-height: 250px;
     border: solid 2px black;
     margin: auto;
+    text-align: center;
+    border-top: none;
+    background-color: #00A651;
+}
+
+#box2 p {
+    padding: 0px 60px 20px;
+    font-size: 30px;
+    color: white;
 }
 
 #box3{
@@ -40,12 +122,4 @@
     min-height: 250px;
     border: solid 2px black;
     margin: auto;
-}
-
-body {
-    font-family: 'Roboto';
-}
-
-h1 {
-    font-family: 'Oswald';
 }
