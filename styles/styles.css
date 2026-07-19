@@ -125,3 +125,35 @@ nav ul li a:hover {
     border: solid 2px black;
     margin: auto;
 }
+
+#textbox{
+    width: 80%;
+    min-height: 250px;
+    border: solid 2px black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#textbox2{
+    width: 80%;
+    min-height: 250px;
+    border: solid 2px black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#textbox3{
+    width: 80%;
+    min-height: 250px;
+    border: solid 2px black;
+    margin: auto;
+}
+
+#textbox img{
+    height: 250px;
+}
+
+#textbox2 img{
+    height: 250px;
+}
